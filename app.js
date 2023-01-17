@@ -7,7 +7,7 @@ let port = process.env.PORT || 9910;
 let mongo = require('mongodb');
 let MongoClient = mongo.MongoClient;
 let bodyParser = require('body-parser')
-let mongoUrl = "mongodb+srv://local:test12345@cluster0.f8vmc.mongodb.net/augintern?retryWrites=true&w=majority";
+let mongoUrl = "mongodb+srv://local:test1234@cluster0.f8vmc.mongodb.net/augintern?retryWrites=true&w=majority";
 let db;
 
 app.use(cors())
